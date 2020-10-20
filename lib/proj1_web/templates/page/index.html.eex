@@ -1,0 +1,8 @@
+<input id="username" type="text" placeholder="Enter username" class="form-control" style="display:inline"></input>
+<input id="sendtweet" type="text" placeholder="tweet" class="form-control"></input>
+<input id="subscribe" type="text" placeholder="enter user to subscribe"  class="form-control"></input>
+<button id="search_user_tweets" type="button" class="btn btn-info">search tweets you are subscribed to</button>
+<input id="search_hashtag" type="text" placeholder="search hashtag"  class="form-control"></input>
+<button id="clear_screen" type="button"  class="btn btn-info">Clear</button>
+<button id="search_mentions" type="button"  class="btn btn-info">search mentions</button>
+<div id="messages"></div>
