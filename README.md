@@ -45,4 +45,5 @@ There are 2 major components of this project, server and client. Client behaves 
 4. In the main project directory run, from terminal, the command mix phx.server .
 5. Open a browser and run localhost:4000 to access a client.
 
+*Sample UI with functionalities : *
 ![Image of the UI](https://github.com/gauravUFL/Twitter-Clone/blob/main/Screen%20Shot%202020-10-21%20at%201.48.46%20AM.png)
