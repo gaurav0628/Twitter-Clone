@@ -8,44 +8,41 @@ There are 2 major components of this project, server and client. Client behaves 
 
 *Server :*
 
-● Navigate to project directory
-● Run “epmd -daemon”
-● Run “mix escript.build”
-● Run “./twitter server ”
+1. Navigate to project directory
+2. Run “epmd -daemon”
+3. Run “mix escript.build”
+4. Run “./twitter server ”
 
 *Client :*
 
-● Navigate to project directory
-● Run “./twitter simulator numUsers numMessages”
+1. Navigate to project directory
+2. Run “./twitter simulator numUsers numMessages”
 
 *Functionalities Implemented :*
 
-● Send tweet. Tweets can have hashtags (e.g. #COP5615isgreat) and mentions
+1. Send tweet. Tweets can have hashtags (e.g. #COP5615isgreat) and mentions
 (@bestuser)
-● Subscribe to user's tweets.
-● Querying tweets subscribed to, tweets with specific hashtags,
-● Tweets in which the user is mentioned (my mentions).
+2. Subscribe to user's tweets.
+3. Querying tweets subscribed to, tweets with specific hashtags,
+4. Tweets in which the user is mentioned (my mentions).
 
 **STEPS TO RUN :**
 
 *CLIENT :*
 
-● Go to assets > js folder from the directory of project
-● Open app.js file and do the following edits
-● Comment the line import socket from "./socket" , and uncomment the line import
-socket from "./solo_socket". Continue if already so.
-● In the main project directory run, from terminal, the command mix phx.server .
-● Open a browser and run localhost:4000 to access a client. You can also open
-multiple tabs for multiple clients.
-● Different functionalities can then be simulated on this client.
+1. Go to assets > js folder from the directory of project
+2. Open app.js file and do the following edits
+3. Comment the line import socket from "./socket" , and uncomment the line import socket from "./solo_socket". Continue if already so.
+4. In the main project directory run, from terminal, the command mix phx.server .
+5. Open a browser and run localhost:4000 to access a client. You can also open multiple tabs for multiple clients.
+6. Different functionalities can then be simulated on this client.
 
 *SIMULATOR :*
 
-● Go to assets > js folder from the directory of project
-● Open app.js file and do the following edits
-● Uncomment the line import socket from "./socket" , and comment the line import
-socket from "./solo_socket". Continue if already so.
-● In the main project directory run, from terminal, the command mix phx.server .
-● Open a browser and run localhost:4000 to access a client.
+1. Go to assets > js folder from the directory of project
+2. Open app.js file and do the following edits
+3. Uncomment the line import socket from "./socket" , and comment the line import socket from "./solo_socket". Continue if already so.
+4. In the main project directory run, from terminal, the command mix phx.server .
+5. Open a browser and run localhost:4000 to access a client.
 
-[Image of the UI](!https://github.com/gauravUFL/Twitter-Clone/blob/main/Screen%20Shot%202020-10-21%20at%201.48.46%20AM.png)
+![Image of the UI](https://github.com/gauravUFL/Twitter-Clone/blob/main/Screen%20Shot%202020-10-21%20at%201.48.46%20AM.png)
